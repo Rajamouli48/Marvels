@@ -9,7 +9,7 @@ import Mobiles from './components/container/Mobiles';
 import Airbuds from './components/container/Airbuds';
 import './App.css';
 import Products from './components/container/Allproducts';
-
+import ProductDetails from './components/container/ProductDetails';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/Products' element={<Products />} />
+        <Route path='/ProductDetails/:id' element={<ProductDetails />} />
         <Route path="/Tv" element={<Tv />} />
         <Route path="/Fashion" element={<Fashion />} />
         <Route path="/Laptop" element={<Laptop />} />

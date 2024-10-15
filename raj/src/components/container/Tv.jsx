@@ -1,4 +1,4 @@
-// Tv.jsx
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { tv } from './data';
 
@@ -38,7 +38,10 @@ const Tv = () => {
 
             {item.stock < 5 && <p className='low-stock'>Hurry, only {item.stock} items left!</p>}
 
-            <button className='move'>Add to cart</button>
+            {/* <button className='move'>Add to cart</button> */}
+            <Link to={`/products/${item.id}`}>
+            <button className='move'>View Details</button>
+          </Link>
           </div>
         );
       

@@ -14,7 +14,7 @@ function Products() {
                     <div key={product.id} className="product-card">
                         <img src={product.image} alt={product.name} />
                         <h2>{product.name}</h2>
-                        <p className="price">Price: ${product.price.toFixed(2)}</p>
+                        <p className="price">Price: {product.price.toFixed(2)}</p>
                         <p className="stock">
                             {product.stock > 0 ? `${product.stock} available` : 'Out of stock'}
                         </p>

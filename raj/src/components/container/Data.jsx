@@ -31,9 +31,9 @@ export const tv= [
             "description": "Full HD LED TV with advanced color reproduction and clarity.",
             "category": "Televisions",
             "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/d/o/p/-original-imah4ndsahafgd9c.jpeg?q=70",
-            "inStock": false,
+            "inStock": true,
             "discount": true,
-             "stock": 0,
+             "stock": 3,
         },
         {
             "id": 4,
@@ -42,7 +42,7 @@ export const tv= [
             "description": "Affordable Smart TV with built-in Roku for easy streaming.",
             "category": "Televisions",
             "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/r/f/s/-original-imagvbmgfbsxerhz.jpeg?q=70",
-            "inStock": true,
+            "inStock": false,
             "discount": false,
             "stock": 5,
         },
@@ -124,7 +124,7 @@ export const airbuds =[
         {
             "id": 1,
             "name": "Apple AirPods Pro",
-            "price": 10000.99,
+            "price": 900.99,
             "description": "Active Noise Cancellation and Transparency mode for immersive sound.",
             "category": "Earbuds",
             "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/h/k/g/-original-imah4jvf79j6xdtd.jpeg?q=70",
@@ -135,7 +135,7 @@ export const airbuds =[
         {
             "id": 2,
             "name": "Samsung Galaxy Buds2",
-            "price": 3000.29,
+            "price": 300.29,
             "description": "Lightweight earbuds with rich sound and customizable fit.",
             "category": "Earbuds",
             "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/m/l/galaxy-buds2-pro-sm-r510nlvainu-new-samsung-original-imags7kfzhmvewh3.jpeg?q=70",
@@ -146,7 +146,7 @@ export const airbuds =[
         {
             "id": 3,
             "name": "Jabra Elite 75t",
-            "price": 4000.99,
+            "price": 400.99,
             "description": "Compact design with exceptional sound quality and battery life.",
             "category": "Earbuds",
             "image": "",
@@ -166,7 +166,7 @@ export const airbuds =[
         {
             "id": 5,
             "name": "Anker Soundcore Life P2",
-            "price": 2500.99,
+            "price": 500.99,
             "description": "Affordable true wireless earbuds with impressive battery life.",
             "category": "Earbuds",
             "image": "https://rukminim2.flixcart.com/image/612/612/kkh6zrk0/headphone/y/v/o/liberty-air-2-pro-soundcore-original-imafzta7b8bhgnz5.jpeg?q=70",
@@ -256,7 +256,7 @@ export const laptop =
         "category": "Mobile Phones",
         "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/a/l/-original-imagzm8qrfdmhy8z.jpeg?q=70",
         "inStock": true,
-        "discount": false,
+        "discount": true,
         "stock": 10,
     },
     {
@@ -266,9 +266,9 @@ export const laptop =
         "description": "Smartphone with exceptional camera capabilities and clean Android experience.",
         "category": "Mobile Phones",
         "image": "",
-        "inStock": false,
+        "inStock": true,
         "discount": true,
-        "stock": 0,
+        "stock": 1,
     },
     {
         "id": 4,
