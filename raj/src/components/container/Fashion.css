@@ -1,0 +1,27 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    border: 1px solid black; 
+    width:20%; 
+    margin: 30px;
+    overflow:hidden;
+    
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    
+}
+.cat,.pri,.name{
+    text-align: center;
+    padding: 9px;
+}
+#{
+    width: 200px;
+} */

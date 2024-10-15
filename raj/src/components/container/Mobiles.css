@@ -1,0 +1,28 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    border: 1px solid rgb(220, 16, 186); 
+    width:20%; 
+    margin: 30px;
+    overflow:hidden;
+    
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.image{
+    
+    background-position: inherit;
+    object-fit: cover;
+}
+.cat,.pri,.name{
+    text-align: center;
+    padding: 9px;
+} */
